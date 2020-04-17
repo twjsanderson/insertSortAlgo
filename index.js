@@ -1,6 +1,7 @@
 
 /**
  * Iterative Insertion Sort
+ * Version 1
  * @param {array} array 
  * @returns {array} 
  */
@@ -48,7 +49,6 @@ const swap = (array, position, value) => {
  * @param {array} array (unsorted array)
  * @param {number} n (optional index to start sort) 
  */
-
 const recursiveInsertionSort = (array, len) => {
 
     // Base case 1, len must always be the size of the array
@@ -71,7 +71,6 @@ const recursiveInsertionSort = (array, len) => {
 
 let array2 = [4,1,-1,3,-10,4,5,6,2,3,4];
 console.log('array after iterative sort: ', iterativeInsertionSort(array2))
-
 
 let array1 = [4,1,-1,3,-10,4,5,6,2,3,4];
 
